@@ -8,10 +8,7 @@
   --border: 1px solid #FFFFFF1a;
 }
 
-body,
-table,
-input,
-button {
+body, table, input, button {
   font: 300 16px/140% 'Roboto', sans-serif;
 }
 
@@ -40,7 +37,7 @@ fieldset {
   border: none;
 }
 
-fieldset>div {
+fieldset > div {
   display: flex;
   gap: 12px;
 }
@@ -61,8 +58,7 @@ input {
   all: unset;
 }
 
-fieldset legend,
-section h2 {
+fieldset legend, section h2 {
   font: 700 16px/140% 'Roboto', sans-serif;
   color: #E1E1E6;
   padding-bottom: 16px;
@@ -71,7 +67,7 @@ section h2 {
 fieldset button {
   width: fit-content;
   border: 0;
-  background: #F48C5F;
+  background: #FF8FAB; 
   border-radius: 10px;
   padding: 7px 20px;
   font: 700 12px/24px 'Roboto', sans-serif;
@@ -79,14 +75,14 @@ fieldset button {
 }
 
 fieldset button:hover {
-  background: #F37C37;
+  background: #FB6F92;
 }
 
 .lista-participantes {
-  padding: 20px 0;
+  padding:20px 0;
 }
 
-.lista-participantes>div {
+.lista-participantes > div {
   border: var(--border);
   border-radius: 8px;
 }
@@ -100,8 +96,7 @@ table thead {
   line-height: 16px;
 }
 
-thead th,
-tbody td {
+thead th, tbody td {
   padding: 12px 16px;
 }
 
@@ -126,7 +121,7 @@ tbody td small {
 
 tbody td button {
   all: unset;
-  color: #9FF9CC;
+  color: #A2D2FF;
 }
 
 tbody td button:hover {
